@@ -81,7 +81,7 @@ for(index1=1; index1<=4; index1++)
         else
         {
             system("cls");
-            printf("\n\nInvalid input , try again by using valid inputs");
+            printf("\n\nInvalid input , you need to try again by using valid inputs only");
         }
         printf("\n\n");
     }
