@@ -28,14 +28,14 @@ for(index1=1; index1<=4; index1++)
         }
         for(index2=1; index2<=4-m+1; index2++)
         {
-            if(index2==4-m+1 || m==1 || m==4)
+            if(index2==4-index1+1 || index1==1 || index1==4)
                 printf("*");
             else
                 printf(" ");
         }
-        for(index2=1; index2<=4-m+1; index2++)
+        for(index2=1; index2<=4-index1+1; index2++)
         {
-            if(index2==1 ||m==1 || m==4)
+            if(index2==1 ||index1==1 || index1==4)
                 printf("*");
             else
                 printf(" ");
