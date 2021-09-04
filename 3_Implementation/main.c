@@ -15,7 +15,7 @@ int main()
 {
    
     read();
-    int c;
+    int choice;
     printf("VOTER-ID DATABASE MANAGEMENT SYSTEM\n");
     int index1,index2;
 for(index1=1; index1<=4; index1++)
@@ -42,38 +42,38 @@ for(index1=1; index1<=4; index1++)
         }
         printf("\n");
     }
-    while(c!=6)
+    while(choice!=6)
     {
 
         printf("**Enter your choice**\n\n1. Add Information\n2. View Information\n3. Search\n4. Edit Information\n5. Delete Information\n6. Exit\n\nOption=");
-        scanf("%d",&c);//choice for option
+        scanf("%d",&choice);//choice for option
         // fflush(stdin);//making it clear
         if(c==1)//add
         {
             system("cls");
             add();
         }
-        else if(c==2)//view
+        else if(choice==2)//view
         {
             system("cls");
             view();
         }
-        else if(c==3)//search
+        else if(choice==3)//search
         {
             system("cls");
             search();
         }
-        else if(c==4)//edit
+        else if(choice==4)//edit
         {
             system("cls");
             edit();
         }
-        else if(c==5)//delete
+        else if(choice==5)//delete
         {
             system("cls");
             del();
         }
-        else if(c==6)
+        else if(choice==6)
         {
             // write();
             return 0;
