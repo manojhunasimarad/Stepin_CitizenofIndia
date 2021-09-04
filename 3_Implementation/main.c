@@ -11,4 +11,10 @@
 
 #include <stdio.h>
 #include <voter.h>
-
+int main()  
+{
+   
+    read();
+    int c;
+    printf("VOTER-ID DATABASE MANAGEMENT SYSTEM\n");
+    int m,n;
