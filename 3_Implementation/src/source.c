@@ -273,7 +273,7 @@ void search()
 void del()
 {
     int f,h;
-    printf("Enter the serial number of the patient that you want to delete=");
+    printf("Enter the serial number of the applicant that you want to delete=");
     scanf("%d",&f);
     if(f<num)
     {
@@ -322,12 +322,12 @@ void del()
 }
 void read()
 {
-    FILE *fp = fopen("patient.txt","r");
+    FILE *fp = fopen("Applicant.txt","r");
     if(fp == NULL)
     {
         //create empty file, so that we can open it
         //in the next execution of this program
-        fp = fopen("patient.txt","w");
+        fp = fopen("Applicant.txt","w");
         // fclose(fp);
         printf("File does not exist, I JUST CREATED IT, exiting...\n\n\n");
         
@@ -339,7 +339,7 @@ void read()
 /*
 void write()
 {
-    FILE *fp = fopen("patient.txt","w");
+    FILE *fp = fopen("Applicant.txt","w");
     if(fp == NULL)
     {
         printf("Error");
