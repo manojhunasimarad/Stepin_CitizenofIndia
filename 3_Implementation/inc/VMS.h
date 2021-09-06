@@ -18,8 +18,8 @@
 struct ad
 {
     char name[30];
-    char disease[30];
-    int cabin,phone,age;
+    char wardno[30];
+    int pincode,phone,age;
 } x[100];
 
 void read();
