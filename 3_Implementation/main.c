@@ -10,7 +10,7 @@
  */
 
 #include <stdio.h>
-#include <voter.h>
+#include <VMS.h>
 int main()  
 {
    
@@ -18,13 +18,15 @@ int main()
     int choice;
     printf("VOTER-ID DATABASE MANAGEMENT SYSTEM\n");
     int index1,index2;
+   
+   //this will make the impression of the code output look good
 for(index1=1; index1<=4; index1++)
     {
         for(index2=1; index2<=5; index2++)
-            printf(" ");
+            printf("  ");
         for(index2=1; index2<=index1-1; index2++)
         {
-            printf(" ");
+            printf("  ");
         }
         for(index2=1; index2<=4-m+1; index2++)
         {
@@ -42,13 +44,18 @@ for(index1=1; index1<=4; index1++)
         }
         printf("\n");
     }
+   
+   
+   
     while(choice!=6)
     {
 
-        printf("**Enter your choice**\n\n1. Add Information\n2. View Information\n3. Search\n4. Edit Information\n5. Delete Information\n6. Exit\n\nOption=");
+        printf("*****    Please enter your choice  *****\n\n\n1. Add the Information of Voter\n2. View Information of Voter\n3. Search of Voter\n4. Edit Information of Voter\n5. Delete Information of Voter\n6. Exit or Stop \n\n\n");
         scanf("%d",&choice);//choice for option
+       
+       printf("Choice you have entered is= %d",choice);
         // fflush(stdin);//making it clear
-        if(c==1)//add
+        if(choice==1)//add
         {
             system("cls");
             add();
@@ -75,13 +82,13 @@ for(index1=1; index1<=4; index1++)
         }
         else if(choice==6)
         {
-            // write();
+            // write(); returning stop or exiting the code
             return 0;
         }
         else
         {
             system("cls");
-            printf("\n\nInvalid input , you need to try again by using valid inputs only");
+            printf("\n\n you have entered the Invalid input , you need to try again by using valid inputs only given from the options");
         }
         printf("\n\n");
     }
