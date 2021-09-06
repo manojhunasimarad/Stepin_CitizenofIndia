@@ -1,16 +1,16 @@
 /**
  * @file HMS.h
- * @author Shaik MOhammed Feroz(mohammedferoz17@dgmail.com)
- * @brief Hospital Management syetem
+ * @author Manoj Hunasimarad(manojsumya@dgmail.com)
+ * @brief Voter-Id database Management syetem
  * @version 0.1
- * @date 2021-07-05
+ * @date 2021-09-06
  * 
  * @copyright Copyright (c) 2021
  * 
  */
 
-#ifndef __HMS_H__
-#define __HMS_H__
+#ifndef __VMS_H__
+#define __VMS_H__
 
 #include<stdio.h>
 #include<string.h>
