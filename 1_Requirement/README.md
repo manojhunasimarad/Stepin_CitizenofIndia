@@ -14,6 +14,8 @@ The main objectives of this project are
 --to achieve success in using my understandings of c program to implement it.
 
 
+
+
 ## Features :
 --We can add member in voter ID database. 
 
@@ -31,14 +33,21 @@ The main objectives of this project are
 The upcoming *features* would be like 
 
 =>two step autentication
+
 =>biometric scan 
+
 =>GPS location tracking 
+
 =>smart Card and many more
+
+
 
 
 ## Research
 https://www.nvsp.in/
+
 from the website, the latest elections has been done and with all the copyrights, i have implemented the database management system
+
 
 ## Cost and Features and Timeline
 Cost is initially low because all you need is a operating sytem and our application in which it can be executed easily.
