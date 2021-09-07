@@ -1,7 +1,6 @@
  
 # Literature Survey/Research.
-The VoterId managment System and its features.
-In this project we will look upon Voterid management system to create the Voter Id. Here the useer can create and exterior file regarding add data, modify data , delete ,and search data and can store all these data permananetly or temporarily. this also gives an oppurtunity to create E-Voter Id
+Here the useer can create and exterior file regarding add data, modify data , delete ,and search data  this also gives an oppurtunity to create E-Voter Id
 given the authorities can also implement some features whichevr or so they want.
 
 
@@ -11,7 +10,7 @@ given the authorities can also implement some features whichevr or so they want.
 
 
 ## Introduction:-
-India is the largest democratic country in the world.it firmly beleives Unity in diversity. Hence there are various factors affecting us directly or indirectly like  population, education environment etc. Therefore digitalization has a large impact on us. We the people of India have the right to elect our own representatives.This projects will demonstrate the management of ELection Commission  of India to Add, Delete, Modify the constituents of India that is voters.
+India is the largest democratic country in the world.it firmly beleives Unity in diversity. Hence there are various factors affecting us directly or indirectly like  population, education environment etc. Therefore digitalization has a large impact on us. We the people of India have the right to elect our own representatives.This projects will demonstrate the management of ELection Commission  of India to Add, Delete, Modify and can store all these data permananetly or temporarily of the constituents of India that is voters.
 
 
 
