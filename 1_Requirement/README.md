@@ -48,9 +48,6 @@ It could be initially used in university or college to elect their student secre
 ## Defining Our System
     This System is used to store view and search USer mainly the voters, depending on the contex.
     
-    How 
-    
-    SW OT analysis 
     
 ## SWOT ANALYSIS
 ![SWOT-Sample](Link to Pic)
@@ -71,28 +68,43 @@ this data can be used for organising managing the data knowledge share deploying
 
 ## Who:
 
-**TBD**
+**All the election commission authorities or members**
 
 ## What:
 
-**TBD**
+**colleges or universities trying to marriage elect a student secretaries can also implement this idea. Conclusion and implementation produces management of constituent's along with a data to add, modify, search,view or delete operations**
 
 ## When:
 
-**TBD**
+**At the time of elections on or before the elections anytime the voters can get registered but the only eligibility criteria is there should be a citizen of India and should be age above 18 years 
+what **
 
 ## Where:
 
-**TBD**
+**In authorised centre  the authorities can use application on desktop**
 
 ## How:
 
-**The system creates an external file to store the data eminently and this is done using the knowledge of C programming and operating systems**
+**
+implementation will be done in GitHub using c code for the project purpose where as in the real life by physical or online ,the Voter or the user can feed the data his/her laptop raising a request for authorities to approve or reject.
+The system creates an external file to store the data eminently and this is done using the knowledge of C programming and operating systems**
 
 # Detail requirements
 ## High Level Requirements:
 
 -- ID | Description | Status (Implemented/Future)
+
+
+hr01 customers can add details of the constituencies voters
+hr02 Customers can delete 
+hr03 update 
+hr04 search 
+hr05 biometric scan 
+hr06 smart card 
+hr07 GPS tracking
+
+
+
 
 HR01|Description | Status (Implemented/Future)|
 HR01|Description | Status (Implemented/Future)|
