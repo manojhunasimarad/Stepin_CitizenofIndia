@@ -6,7 +6,7 @@ BUILD_DIR = Build
 SRC =  main.c\
 src/source.c
 
-TEST_SRC = test/test_hms.c\
+TEST_SRC = test/test_VMS.c\
 unity/unity.c
 
 #To check if the OS is Windows or Linux and set the executable file extension and delete command accordingly
