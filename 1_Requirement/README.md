@@ -37,13 +37,16 @@ The upcoming *features* would be like
 
 
 ## Research
-![Description](Link to Pic)
--- Content 
+https://www.nvsp.in/
+from the website, the latest elections has been done and with all the copyrights, i have implemented the database management system
+
 ## Cost and Features and Timeline
-![Description](Link to Pic)
--- Content 
+Cost is initially low because all you need is a operating sytem and our application in which it can be executed easily.
+It could be initially used in university or college to elect their student secretary or president.
+
+
 ## Defining Our System
-    -- TBD
+    This System is used to store view and search USer mainly the voters, depending on the contex.
 ## SWOT ANALYSIS
 ![SWOT-Sample](Link to Pic)
 
