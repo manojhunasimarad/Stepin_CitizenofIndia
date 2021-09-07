@@ -9,18 +9,19 @@
  * 
  */
 
-#ifndef __VMS_H__
+
+#ifndef  __VMS_H__
 #define __VMS_H__
 
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
-struct ad
+
+struct pro
 {
-    char name[30];
-    char wardno[30];
-    int pincode,phone,age;
-} x[100];
+    char Name[50],ParentsName[50],Houseaddress[100],Aadharcardno[12],phoneno[10];;
+    int pincode,age;
+}variable[100];
 
 void read();
 void add();
@@ -30,4 +31,9 @@ void edit();
 void del();
 void show();
 
+
+
+
 #endif
+
+
