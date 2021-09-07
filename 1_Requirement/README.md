@@ -7,23 +7,33 @@ India is the largest democratic country in the world. It firmly believes Unity i
 
 
 
-##Objectives:
-of this project are successful enrollment of citizens of India in voters list id which can use operations like add delete view search and modify user database.
- It will show the digitalization done in file storage process eliminating hand written and hardcover documents.
- Also in this project we have successfully used or understandings of c program to implement it
+## Objectives:
+The main objectives of this project are 
+--successful enrollment of citizens of India in voters list id which can use operations like add, delete, view, search, and modify user database.
+--to illustrate the digitalization done in file storage process eliminating hand written and hardcover documents.
+--to achieve success in using my understandings of c program to implement it.
 
 
-##Features :
-We can add voter
-we can edit 
-we can modify 
-        due to change of address we can change 
-        due to change of there name we can 
-display the data han and also 
-we can view the WhatsApp status
+## Features :
+--We can add member in voter ID database. 
+
+--we can edit member in voter ID database.
+
+--we can modify member in voter ID database like
+--------due to change of address. 
+--------due to change of name.
+
+--we can opt to display the data. 
+
+--we can view the Voters data.
 
 
-The upcoming features would be like two step autentication, biometric scan ,GPS location tracking, smart Card and many more
+The upcoming *features* would be like 
+
+=>two step autentication
+=>biometric scan 
+=>GPS location tracking 
+=>smart Card and many more
 
 
 ## Research
