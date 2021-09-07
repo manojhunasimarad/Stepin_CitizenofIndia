@@ -9,87 +9,84 @@
  * 
  */
 
-#include <stdio.h>
-#include <VMS.h>
-int main()  
+#include "VMS.h""
+
+int main()
 {
-   
     read();
     int choice;
-    printf("VOTER-ID DATABASE MANAGEMENT SYSTEM\n");
-    int index1,index2;
-   
-   //this will make the impression of the code output look good
-for(index1=1; index1<=4; index1++)
-    {
-        for(index2=1; index2<=5; index2++)
-            printf("  ");
-        for(index2=1; index2<=index1-1; index2++)
-        {
-            printf("  ");
-        }
-        for(index2=1; index2<=4-m+1; index2++)
-        {
-            if(index2==4-index1+1 || index1==1 || index1==4)
-                printf("*");
-            else
-                printf(" ");
-        }
-        for(index2=1; index2<=4-index1+1; index2++)
-        {
-            if(index2==1 ||index1==1 || index1==4)
-                printf("*");
-            else
-                printf(" ");
-        }
-        printf("\n");
-    }
-   
-   
-   
+    printf("Welcome to Voter-Id Management System\n\n");
+
     while(choice!=6)
+
     {
 
-        printf("*****    Please enter your choice  *****\n\n\n1. Add the Information of Voter\n2. View Information of Voter\n3. Search of Voter\n4. Edit Information of Voter\n5. Delete Information of Voter\n6. Exit or Stop \n\n\n");
-        scanf("%d",&choice);//choice for option
-       
-       printf("Choice you have entered is= %d",choice);
-        // fflush(stdin);//making it clear
-        if(choice==1)//add
+        printf("You are Welcome!!!!!!!!!!!!!! \nto\n Voter Id Database Mangement System\n\n");
+        printf("Press 1 to Add Applicant's Data\n");
+        printf("Press 2 to View Applicant's Data\n");
+        printf("Press 3 to Search Applicant's Data\n");
+        printf("Press 4 to Edit Applicant's Data\n");
+        printf("Press 5 to Delete Applicant's Data\n");
+        printf("Press 6 to Exit the opeartion\n");
+        scanf("%d",&choice);
+        printf("you have selected %d ",choice);
+
+        if(choice==1)
         {
+            printf("You have opted to add Applicants data\n\n");
             system("cls");
             add();
         }
-        else if(choice==2)//view
-        {
+        else if (choice==2)
+
+
+      {
+            printf("You have opted to View Applicants data\n\n");
             system("cls");
             view();
         }
-        else if(choice==3)//search
+
+        else if(choice==3)
         {
+            printf("You have opted to search Applicants data\n\n");
             system("cls");
             search();
         }
-        else if(choice==4)//edit
+        else if(choice==4)
         {
+            printf("You have opted to edit the Applicants data\n\n");
             system("cls");
             edit();
         }
-        else if(choice==5)//delete
+        else if(choice==5)
         {
+            printf("You have opted to Delete Applicants data\n\n");
             system("cls");
             del();
         }
+
         else if(choice==6)
         {
-            // write(); returning stop or exiting the code
+            printf("You have opted to Exit the VoterId  database Management system\n\n");
             return 0;
+
         }
         else
-        {
-            system("cls");
-            printf("\n\n you have entered the Invalid input , you need to try again by using valid inputs only given from the options");
-        }
-        printf("\n\n");
+    {
+        system("cls");
+        printf("You have entered an invalid input.Please try again with  valid inputs only\n\n");
+
     }
+
+
+
+
+    }
+
+
+
+
+
 }
+
+
