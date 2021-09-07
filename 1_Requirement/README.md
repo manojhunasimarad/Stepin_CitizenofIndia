@@ -47,9 +47,26 @@ It could be initially used in university or college to elect their student secre
 
 ## Defining Our System
     This System is used to store view and search USer mainly the voters, depending on the contex.
+    
+    How the system creates an external file to store the data eminently and this is done using the knowledge of c programming and operating systems 
+    
+    SW OT analysis 
+    
 ## SWOT ANALYSIS
 ![SWOT-Sample](Link to Pic)
 
+## strengths 
+a primary focus on quality improvement internal team dedicated to research and analytics high quality of authorities modern computers operating systems or devices well-equipped
+
+## Weaknesses 
+output devices and facilities and technologies insufficient management lack of funding and resources our locations that are not easily accessible for anyone in the quantity and saw the authority's hai staff turnovers
+## Threats 
+economy or political in security policy and legislation changes that result in budget deficits are preserved to reduce cost while meeting expectation of universal coverages increased competency
+
+
+## Opportunities 
+
+this data can be used for organising managing the data knowledge share deploying various schemes related to health economy and social initiatives could be driven by engaging increase of fund analytics research including both staff technology create member programs
 # 4W&#39;s and 1&#39;H
 
 ## Who:
