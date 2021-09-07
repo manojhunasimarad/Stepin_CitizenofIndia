@@ -1,352 +1,527 @@
+
 #include <VMS.h>
-int n,index1,index2=0,a=0,sum=0,g,flag,num;
+
+
+
+
+int index1,index2,index3,index4,sum=0,g,flag,num;
 void add()
 {
-    printf("\n");
-    printf("The number of entries you entered =%d\n\n\n",num);//how much of the inputs are provide starting from zero
-    printf("The number of entries you wish to add =\n");
-    scanf("%d",&n);
-    sum=n+num;
+    printf("\n\n the number of entries you wish to add\n\n");
+    scanf("%d",&index3);
+    sum=index3+num;
 
-    for(index1=num,index2=0; index1<sum; index1++)
+    for(index1=num,index2=0;index1<sum;index1++)
     {
-        printf("\n");
-        // fflush(stdin);
-        printf("Please Enter the Applicant's name :");
-        scanf("%s",x[index1].Applicant_name);
-        // fflush(stdin);
-        printf("Enter the House Address = ");
-        scanf("%s",x[index1].Houseaddress);
-        // fflush(stdin);
-        printf("Enter the age = ");
-        scanf("%d",&x[index1].age);
-        // fflush(stdin);
-        printf("Enter Aadhar Number = ");
-        scanf("%d",&x[index1].AadharNumber);
-        // fflush(stdin);
-        printf("Enter phone number = ");
-        scanf("%d",&x[index1].phone);
-        // fflush(stdin);
-        printf("\n");
+        printf("Please Enter the Applicant's Name:\n");
+        scanf("%s",variable[index1].Name);
+        printf("Please Enter the Applicant's Parent name:\n");
+        scanf("%s",variable[index1].ParentsName);
+        printf("Please Enter the Applicant's House Address:\n");
+        scanf("%s",variable[index1].Houseaddress);
+        printf("Please Enter the Applicant's Aadhar Card Number:\n");
+        scanf("%s",variable[index1].Aadharcardno);
+        printf("Please Enter the Applicant's Mobile Number:\n");
+        scanf("%s",variable[index1].phoneno);
+        printf("Please Enter the Applicant's Pincode:\n");
+        scanf("%d",&variable[index1].pincode);
+        printf("Please Enter the Applicant's Age:\n\n\n");
+        scanf("%d",&variable[index1].age);
+
         index2++;
-        a++;
+        index4++;
         num++;
+
+        
+        
+        
     }
+
+
+
 }
+
 void view()
+
+
 {
-    for(index1=0; index1<num; index1++)
+    for(index1=0;index1<num;index1++)
     {
-        printf("\n");
-        printf("Serial Number=%d\n",index1);
-        printf("Applicant name = ");
-        puts(x[index1].Applicant_name);
-        printf("House Address = ");
-        puts(x[index1].Houseaddress);
-        printf("AadharNumber = %d\nPhone number = 0%d\nAge=%d",x[index1].AadharNumber,x[index1].phone,x[index1].age);
-        printf("\n\n");
+        printf("\n\n Serial Number is %d",index1);
+        printf("Applicant's Name is :");
+        puts(variable[index1].Name);
+        printf("Applicant's Parent Name is :");
+        puts(variable[index1].ParentsName);
+        printf("Applicant's House Address is :");
+        puts(variable[index1].Houseaddress);
+        printf("Applicant's Aadhar card number is :");
+        puts(variable[index1].Aadharcardno);        
+        printf("Applicant's phone number is :");
+        puts(variable[index1].phoneno);
+        printf("Applicant's pincode is :%d",variable[index1].pincode);
+        printf("Applicant's age is :%d",variable[index1].age);
+        
     }
+
 }
-void edit()
-{
-    int q,p;
-    // fflush(stdin);
-    printf("Do you want to edit ?\n");
-    printf("if yes Please Enter your option\n");
-    printf("1.Applicant_name\n2.House Address\n3.Age\n4.AadharNumber\n5.Phone no.\n");
-    printf("Option=");
-    scanf("%d",&q);//option
-    if(q<=5)
-    {
-        printf("Enter the serial no of the Applicant= (0 - %d)=",num-1);
-        scanf("%d",&p);//serial number
-        if(p<num)
-        {
-            if(q==1)
-            {
-                // fflush(stdin);
-                printf("Enter the new Applicant_name=");
-                scanf("%s",x[p].Applicant_name);
 
-            }
-            else if(q==2)
-            {
-                //fflush(stdin);
-                printf("Enter the new House Address=");
-                scanf("%s",x[p].Houseaddress);
-            }
-            else if(q==3)
-            {
-                //fflush(stdin);
-                printf("Enter the new Age=");
-                scanf("%d",&x[p].age);
-            }
-
-            else if(q==4)
-            {
-                //fflush(stdin);
-                printf("Enter the new AadharNumber=");
-                scanf("%d",&x[p].AadharNumber);
-            }
-
-            else if(q==5)
-            {
-                //fflush(stdin);
-                printf("Enter the new Phone no =");
-                scanf("%d",&x[p].phone);
-            }
-        }
-        else
-        {
-            printf("\n\nInvalid Serial \nTry Again !!\n\n");
-        }
-    }
-    else
-    {
-        printf("\n\nInvalid option\nTry Again!!\n\n");
-    }
-}
 void search()
+
 {
+
     int s,h;
     char u[100];
-    printf("the criteria you wish to search is?\n");
-    printf("1.Serial no.\n2.Applicant_name\n3.House Address\n4.AadharNumber.\n5.Phone no.\n6.Age\n\nOption = ");
+    printf("The criteria you are looking for is?");
+    printf("\nPress 1 to Search by Applicant's Serial Number \n");
+    printf("Press 2 to Search by Applicant's Name \n");
+    printf("Press 3 to Search by Applicant's House Address \n");
+    printf("Press 4 to Search by Applicant's Aadhar CardNumber\n");
+    printf("Press 5 to Search by Applicant's phoneno \n");
+    printf("Press 6 to Search by the pincode\n");
+    printf("Press 7 to Search by the age\n");
     scanf("%d",&h);
-    if(h==1)
+    if(h==2)
     {
-        printf("Enter Serial number of the Applicant");
+        printf("Enter the Applicant's name:");
+        scanf("%s",u);
+        for(g=0;g<num;g++)
+        {
+            if(strcmp(u,variable[g].Name)==0)
+            {
+                int f=1;
+                printf("\n Serial number is %d",g);
+                printf("Name:");
+                puts(variable[g].Name);
+
+
+                printf("Parents Name:\n");
+                puts(variable[g].ParentsName);
+                
+                printf(" Houseaddress:\n");
+                puts(variable[g].Houseaddress);
+                
+                printf("Aadharcardno:\n");
+                puts(variable[g].Aadharcardno);
+                 
+                printf("phoneno:\n");
+                puts(variable[g].phoneno);
+                printf("pincode: %d \n",variable[g].pincode);
+                
+                printf("Age: %d \n",variable[g].age);
+                
+                f=0;
+
+
+                
+
+                
+
+            }
+            else {printf("No Command found");}
+        }
+        
+
+    }
+    else if(h==1)
+    {
+        printf("Enter the serial number of the Voter:\n");
         scanf("%d",&s);
         if(s<num)
         {
-            printf("\n");
-            printf("Serial Number=%d\n",s);
-            printf("Applicant_name = ");
-            puts(x[s].Applicant_name);
-            printf("House Address = ");
-            puts(x[s].Houseaddress);
-            printf("AadharNumber = %d\nPhone number = 0%d\nAge = %d",x[s].AadharNumber,x[s].phone,x[s].age);
-            printf("\n\n");
+            printf("/n Serial Number is: %d",s);
+            printf("Name:");
+            puts(variable[g].Name);
+            printf("Parents Name:\n");
+            puts(variable[g].ParentsName);    
+            printf(" Houseaddress:\n");
+            puts(variable[g].Houseaddress);                
+            printf("Aadharcardno:\n");
+            puts(variable[g].Aadharcardno);                
+            printf("phoneno:\n");
+            puts(variable[g].phoneno);
+            printf("pincode: %d \n",variable[g].pincode);
+            //puts();
+            printf("Age:%d \n",variable[g].age);
+            //puts();
+
         }
         else
-            printf("\n\nNo Data Found\n\n");
-    }
-    else if(h==2)
-    {
-        int f=1;
-        // fflush(stdin);
-        printf("Enter your Applicant_name=");
-        scanf("%s",u);
-        // fflush(stdin);
-        for(g=0; g<num; g++)
         {
-            if(strcmp(u,x[g].Applicant_name)==0)
-            {
-                printf("\n");
-                printf("Serial Number=%d\n",g);
-                printf("Applicant_name = ");
-                puts(x[g].Applicant_name);
-                printf("House Address = ");
-                puts(x[g].Houseaddress);
-                printf("Aadhar Number = %d\nPhone number = 0%d\nAge = %d",x[g].AadharNumber,x[g].phone,x[g].age);
-                printf("\n\n");
-                f=0;
-
-            }
+            printf("\n\n Command not found");
         }
-        if(f==1)
-            printf("\nNo Data Found\n");
-
-
+        
 
     }
     else if(h==3)
     {
         int f=1;
-        // fflush(stdin);
-        printf("Enter House Address = ");
+        printf("ENter the correspondance addresss:");
         scanf("%s",u);
-        // fflush(stdin);
-        for(g=0; g<num; g++)
+        for(g=0;g<num;g++)
         {
-            if(strcmp(u,x[g].Houseaddress)==0)
+            if(strcmp(u,variable[g].Houseaddress))
             {
-                printf("\n");
-                printf("Serial Number=%d\n",g);
-                printf("Applicant name = ");
-                puts(x[g].Applicant_name);
-                printf("House Address = ");
-                puts(x[g].Houseaddress);
-                printf("Aadhar Number = %d\nPhone number = 0%d\nAge = %d",x[g].AadharNumber,x[g].phone,x[g].age);
-                printf("\n\n");
-                f=0;
+                printf("\n Serial number is %d",g);
+                printf("Name:");
+                puts(variable[g].Name);
+
+
+                printf("Parents Name:\n");
+                puts(variable[g].ParentsName);
+                
+                printf(" Houseaddress:\n");
+                puts(variable[g].Houseaddress);
+                
+                printf("Aadharcardno:\n");
+                puts(variable[g].Aadharcardno);
+                 
+                printf("phoneno:\n");
+                puts(variable[g].phoneno);
+                printf("pincode: %d \n",variable[g].pincode);
+                //puts();
+                printf("Age:%d \n",variable[g].age);
+                //puts();
+                int f=0;
+
+
             }
-
-
         }
-        if(f==1)
-            printf("\nNot Found\n");
-
+        if (f==1) {printf("No Command found");}
 
     }
-    else if(h==4)
-    {
-        int f=1;
-        printf("Enter Aadhar Number = ");
-        scanf("%d",&f);
-        for(g=0; g<num; g++)
+    else if(h==4){
+         int f=1;
+        printf("ENter the applicant's Aadharcardno:");
+        scanf("%s",u);
+        for(g=0;g<num;g++)
         {
-            if(f==x[g].AadharNumber)
+            if(strcmp(u,variable[g].Aadharcardno))
             {
-                printf("\n");
-                printf("Serial Number=%d\n",g);
-                printf("Applicant Name = ");
-                puts(x[g].Applicant_name);
-                printf("Houseaddress = ");
-                puts(x[g].Houseaddress);
-                printf("Aadhar Number = %d\nPhone number = 0%d\nAge = %d",x[g].AadharNumber,x[g].phone,x[g].age);
-                printf("\n\n");
-                f=0;
-            }
+                printf("\n Serial number is %d",g);
+                printf("Name:");
+                puts(variable[g].Name);
 
+
+                printf("Parents Name:\n");
+                puts(variable[g].ParentsName);
+                
+                printf(" Houseaddress:\n");
+                puts(variable[g].Houseaddress);
+                
+                printf("Aadharcardno:\n");
+                puts(variable[g].Aadharcardno);
+                 
+                printf("phoneno:\n");
+                puts(variable[g].phoneno);
+                printf("pincode: %d \n",variable[g].pincode);
+            //  puts();
+                 printf("Age:%d \n",variable[g].age);
+            //  puts();
+                int f=0;
+
+
+            }
         }
-        if(f==1)
-            printf("No Data Found\n\n");
+        if (f==1) {printf("No Command found");}
 
     }
-    else if(h==5)
-    {
-        int f=1;
-        printf("Enter Applicant's Phone number = ");
-        scanf("%d",&f);
-        for(g=0; g<num; g++)
+    else if(h==5){
+         int f=1;
+        printf("ENter the applicant's phoneno:");
+        scanf("%s",u);
+        for(g=0;g<num;g++)
         {
-            if(f==x[g].phone)
+            if(strcmp(u,variable[g].phoneno))
             {
-                printf("\n");
-                printf("Serial Number=%d\n",g);
-                printf("Applicant_name = ");
-                puts(x[g].Applicant_name);
-                printf("House Address = ");
-                puts(x[g].Houseaddress);
-                printf("AadharNumber = %d\nPhone number = 0%d\nAge = %d",x[g].AadharNumber,x[g].phone,x[g].age);
-                printf("\n\n");
-                f=0;
-            }
+                printf("\n Serial number is %d",g);
+                printf("Name:");
+                puts(variable[g].Name);
 
+
+                printf("Parents Name:\n");
+                puts(variable[g].ParentsName);
+                
+                printf(" Houseaddress:\n");
+                puts(variable[g].Houseaddress);
+                
+                printf("Aadharcardno:\n");
+                puts(variable[g].Aadharcardno);
+                 
+                printf("phoneno:\n");
+                puts(variable[g].phoneno);
+                printf("pincode: %d \n",variable[g].pincode);
+            //puts();
+                printf("Age:%d \n",variable[g].age);
+            //puts();
+                int f=0;
+
+
+            }
         }
-        if(f==1)
-            printf("Not Found");
+        if (f==1) {printf("No Command found");}
+
     }
-    else if(h==6)
-    {
-        int f=1;
-        printf("Enter Age = ");
-        scanf("%d",&f);
-        for(g=0; g<num; g++)
+    else if(h==6){
+         int f=1;
+        printf("ENter the applicant's pincode:");
+        scanf("%s",u);
+        for(g=0;g<num;g++)
         {
-            if(f==x[g].age)
+            int con=atoi(u);
+            if( con==variable[g].pincode)
             {
-                printf("\n");
-                printf("Serial Number=%d\n",g);
-                printf("Applicant_name = ");
-                puts(x[g].Applicant_name);
-                printf("Houseaddress = ");
-                puts(x[g].Houseaddress);
-                printf("AadharNumber = %d\nPhone number = 0%d\nAge = %d",x[g].AadharNumber,x[g].phone,x[g].age);
-                printf("\n\n");
-                f=0;
+                printf("\n Serial number is %d",g);
+                printf("Name:");
+                puts(variable[g].Name);
+
+
+                printf("Parents Name:\n");
+                puts(variable[g].ParentsName);
+                
+                printf(" Houseaddress:\n");
+                puts(variable[g].Houseaddress);
+                
+                printf("Aadharcardno:\n");
+                puts(variable[g].Aadharcardno);
+                 
+                printf("phoneno:\n");
+                puts(variable[g].phoneno);
+                printf("pincode:%d\n",variable[g].pincode);
+                //puts();
+                printf("Age: %d\n",variable[g].age);
+                //puts();
+                int f=0;
+
+
             }
+        }
+        if (f==1) {printf("No Command found");}
+
+    }
+    else if(h==7){
+         int f=1;
+        printf("ENter the applicant's Age:");
+        scanf("%s",u);
+        for(g=0;g<num;g++)
+        {
+            int con=atoi(u);
+            if(con==variable[g].age)
+            {
+                printf("\n Serial number is %d",g);
+                printf("Name:");
+                puts(variable[g].Name);
+
+
+                printf("Parents Name:\n");
+                puts(variable[g].ParentsName);
+                
+                printf(" Houseaddress:\n");
+                puts(variable[g].Houseaddress);
+                
+                printf("Aadharcardno:\n");
+                puts(variable[g].Aadharcardno);
+                 
+                printf("phoneno:\n");
+                puts(variable[g].phoneno);
+                printf("pincode: %d\n",variable[g].pincode);
+                printf("Age:%d\n",variable[g].age);
+                int f=0;
+
+
+            }
+        }
+
+    }
+    else  {printf("No Command found");}
+
+
+}
+void edit()
+
+{
+    int q,p;
+    printf("what do youwant to edit?");
+    printf("\n");
+    printf("Press 1 to Edit Applicant's Name \n");
+    printf("Press 2 to edit Applicant's Parents Name \n");
+    printf("Press 3 to Edit Applicant's House Address \n");
+    printf("Press 4 to Edit Applicant's Aadhar CardNumber\n");
+    printf("Press 5 to Edit Applicant's phoneno \n");
+    printf("Press 6 to Edit the pincode\n");
+    printf("Press 7 to Edit the age\n");
+    scanf("%d",&q);
+    printf("You have elected %d",q);
+
+    if (q<=5&&q>0)
+    {
+        /* code */
+        printf("Enter the Serial Number of the Applicant \n");
+        scanf("%d",&p);
+        if (p<num)
+        {
+            {
+                if(q==1)
+                {
+                    printf("Enter the new name\n");
+                    scanf("%s",variable[p].Name);
+                }
+                else if(q==2)
+                {
+                    printf("Enter the new Parents name\n");
+                    scanf("%s",variable[p].ParentsName);
+                }
+                else if(q==3)
+                {
+                    printf("Enter the new Address\n");
+                    scanf("%s",variable[p].Houseaddress);
+                }
+                else if(q==4)
+                {
+                    printf("Enter the new Aadhar Card Number\n");
+                    scanf("%s",variable[p].Aadharcardno);
+                }
+                else if(q==5)
+                {
+                    printf("Enter the new phone Number\n");
+                    scanf("%s",variable[p].phoneno);
+                }
+                else if(q==6)
+                {
+                    printf("Enter the new PinCode\n");
+                    scanf("%d",&variable[p].pincode);
+                }
+                else if(q==7)
+                {
+                    printf("Enter the new Age\n");
+                    scanf("%d",&variable[p].age);
+                }
+
+            }
+            
+        }
+        else
+        {
+            printf("Invalid Serial number.Kindly retry!!!!\n");
 
         }
-        if(f==1)
-            printf("Not Found\n\n");
-
+        
     }
     else
-        printf("\n\nInvalid input\n\n");
+    {
+        printf("Invalid Option!!!!!!!!!!!!!!. please enter the suitable and needy input  \n");
 
+    }
 
+    
 
 
 }
 void del()
+
 {
     int f,h;
-    printf("Enter the serial number of the applicant that you want to delete=");
+    printf("enter the Serial number of the Voter youwish to delete \n");
     scanf("%d",&f);
     if(f<num)
     {
-        printf("What do you want ?\n");
-        printf("1.Remove the whole record\n2.Remove Applicant_name\n3.Remove Houseaddress\n4.Remove age\n5.Remove AadharNumber\n6.Remove phone number\nOption = ");
+        printf("What do you want to delete\n");
+        printf("1.Whole record\n2.Remove Name\n3.Remove ParentsName\n4.Remove Houseaddress\n5.Remove Aadharcardno\n6.Remove phoneno\n7. Remove pincode\n8.Remove Age");
         scanf("%d",&h);
         if(h==1)
         {
             while(f<num)
-            {
-                strcpy(x[f].Applicant_name,x[f+1].Applicant_name);
-                strcpy(x[f].Houseaddress,x[f+1].Houseaddress);
-                x[f].age=x[f+1].age;
-                x[f].AadharNumber=x[f+1].AadharNumber;
-                x[f].phone=x[f+1].phone;
-                f++;
-            }
-            num--;
-        }
-        else if(h==2)
         {
-            strcpy(x[f].Applicant_name,"Cleared");
+            
+            strcpy(variable[f].Name,variable[f+1].Name);
+            strcpy(variable[f].ParentsName,variable[f+1].ParentsName);
+            strcpy(variable[f].Houseaddress,variable[f+1].Houseaddress);
+            strcpy(variable[f].Aadharcardno,variable[f+1].Aadharcardno);
+            strcpy(variable[f].phoneno,variable[f+1].phoneno);
+            variable[f].pincode=variable[f+1].pincode;
+            variable[f].age=variable[f+1].age;
+            f++;
 
         }
+        num--;
+
+        }
+        else if(h==2)
+
+        {
+            strcpy(variable[f].Name,"Cleared");
+        }
+
         else if(h==3)
         {
-            strcpy(x[f].Houseaddress,"Cleared");
+            strcpy(variable[f].ParentsName,"Cleared");
         }
         else if(h==4)
         {
-            x[f].age=0;
+            strcpy(variable[f].Houseaddress,"Cleared");
         }
+
         else if(h==5)
         {
-            x[f].AadharNumber=0;
+            strcpy(variable[f].Aadharcardno,"Cleared");
         }
         else if(h==6)
         {
-            x[f].phone=0;
+            strcpy(variable[f].phoneno,"Cleared");
         }
 
-    }
-    else
-        printf("\n\nInvalid Serial number\n");
+        else if(h==7)
+        {
+            variable[f].pincode=0;
+        }
+        else if(h==8)
+        {
+            variable[f].age=0;
+        }
 
-}
-void read()
-{
-    FILE *fp = fopen("Applicant.txt","r");
-    if(fp == NULL)
-    {
-        //create empty file, so that we can open it
-        //in the next execution of this program
-        fp = fopen("Applicant.txt","w");
-        // fclose(fp);
-        printf("File does not exist, I JUST CREATED IT, exiting...\n\n\n");
+
+
+
         
     }
+    else
+    printf("\n\nInvalid Number\n");
+    
 
-    num = fread(x, sizeof(struct ad),100, fp);
-    fclose(fp);
 }
-/*
+
+
 void write()
 {
-    FILE *fp = fopen("Applicant.txt","w");
-    if(fp == NULL)
+    FILE *fp=fopen("Voter.txt","w");
+    if(fp==NULL)
     {
         printf("Error");
-        exit(1);
+        exit (1);
+
+
     }
-    fwrite(x, sizeof(struct ad),num, fp);
+    fwrite(variable,sizeof(struct pro),num,fp);
 
     fclose(fp);
+
 }
-*/
+
+void read()
+{
+    
+    FILE *fp=fopen("Voter.txt","r");
+    if(fp==NULL)
+    {
+        //printf("Error")
+        //exit (1);
+        fp=fopen("Voter.txt","w");
+        printf("Congrats!!! the file has been created.\n\n\n");
+
+
+    }
+    num=fread(variable,sizeof(struct pro),100,fp);
+    fclose(fp);
+}
+
+
+
