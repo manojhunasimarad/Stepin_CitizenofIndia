@@ -85,9 +85,7 @@ what **
 
 ## How:
 
-**
-implementation will be done in GitHub using c code for the project purpose where as in the real life by physical or online ,the Voter or the user can feed the data his/her laptop raising a request for authorities to approve or reject.
-The system creates an external file to store the data eminently and this is done using the knowledge of C programming and operating systems**
+**implementation will be done in GitHub using c code for the project purpose where as in the real life by physical or online ,the Voter or the user can feed the data his/her laptop raising a request for authorities to approve or reject.The system creates an external file to store the data eminently and this is done using the knowledge of C programming and operating systems**
 
 # Detail requirements
 ## High Level Requirements:
