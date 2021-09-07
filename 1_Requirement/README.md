@@ -48,7 +48,7 @@ It could be initially used in university or college to elect their student secre
 ## Defining Our System
     This System is used to store view and search USer mainly the voters, depending on the contex.
     
-    How the system creates an external file to store the data eminently and this is done using the knowledge of c programming and operating systems 
+    How 
     
     SW OT analysis 
     
@@ -87,7 +87,7 @@ this data can be used for organising managing the data knowledge share deploying
 
 ## How:
 
-**TBD**
+**The system creates an external file to store the data eminently and this is done using the knowledge of C programming and operating systems**
 
 # Detail requirements
 ## High Level Requirements:
@@ -102,6 +102,18 @@ HR01|Description | Status (Implemented/Future)|
 
 
 ##  Low level Requirements:
+
+Low level requirements 2018 system should provide check whether the Voter is in list or not 0
+
+LR02 the system should be able to add the user data who is not in list 
+
+LR03 system should be able to delete ,update , view and search the voters who are in the list only.
+
+
+
+security concerns this should be used by only authorised user and they can admitted to the system|
+platform is about the system working on any operating system be it windows or Linux|
+performance of a man should handle the large amount of constituent state
 --- TBD in Tabular Format 
 -- ID | Description | Status (Implemented/Future)
 
