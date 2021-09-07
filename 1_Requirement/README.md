@@ -10,6 +10,7 @@ Also in this project we have successfully used or understandings of c program to
 
 ##Objectives of this project are successful enrollment of citizens of India in voters list id which can use operations like add delete view search and modify user database.
  It will show the digitalization done in file storage process eliminating hand written and hardcover documents.
+ Also in this project we have successfully used or understandings of c program to implement it
 
 
 ##Features :
@@ -22,7 +23,7 @@ display the data han and also
 we can view the WhatsApp status
 
 
-The upcoming features would be like to step out on sation biometric scan GPS location tracking smart Card and many more
+The upcoming features would be like two step autentication, biometric scan ,GPS location tracking, smart Card and many more
 
 
 ## Research
@@ -60,8 +61,14 @@ The upcoming features would be like to step out on sation biometric scan GPS loc
 
 # Detail requirements
 ## High Level Requirements:
---- TBD in Tabular Format 
+
 -- ID | Description | Status (Implemented/Future)
+
+HR01|Description | Status (Implemented/Future)|
+HR01|Description | Status (Implemented/Future)|
+HR01|Description | Status (Implemented/Future)|
+HR01|Description | Status (Implemented/Future)|
+
 
 
 ##  Low level Requirements:
