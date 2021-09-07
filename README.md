@@ -2,4 +2,4 @@
 
 
 ## Badges
-.github/workflows/main.yml
+[![CI](https://github.com/manojhunasimarad/Stepin_electorate/actions/workflows/main.yml/badge.svg)](https://github.com/manojhunasimarad/Stepin_electorate/actions/workflows/main.yml)
