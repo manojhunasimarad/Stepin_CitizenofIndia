@@ -7,7 +7,8 @@ India is the largest democratic country in the world. It firmly believes Unity i
 
 
 
-##Objectives of this project are successful enrollment of citizens of India in voters list id which can use operations like add delete view search and modify user database.
+##Objectives:
+of this project are successful enrollment of citizens of India in voters list id which can use operations like add delete view search and modify user database.
  It will show the digitalization done in file storage process eliminating hand written and hardcover documents.
  Also in this project we have successfully used or understandings of c program to implement it
 
