@@ -9,6 +9,7 @@
 
 
 ## Badges
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d7dea4a9ee1e4fe9b1430f77b7af7d44)](https://app.codacy.com/gh/manojhunasimarad/Stepin_electorate?utm_source=github.com&utm_medium=referral&utm_content=manojhunasimarad/Stepin_electorate&utm_campaign=Badge_Grade_Settings)
 [![CI_BuildCheck](https://github.com/manojhunasimarad/Stepin_electorate/actions/workflows/main.yml/badge.svg)](https://github.com/manojhunasimarad/Stepin_electorate/actions/workflows/main.yml)
 ![CI_BuildCheck](https://www.code-inspector.com/project/27992/score/svg)
 ![CI_BuildCheck](https://www.code-inspector.com/project/27992/status/svg)
