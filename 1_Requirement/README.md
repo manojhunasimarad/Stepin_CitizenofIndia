@@ -44,9 +44,12 @@ The upcoming *features* would be like
 
 
 ## Research
-https://www.nvsp.in/
 
-from the website, the latest elections has been done and with all the copyrights, i have implemented the database management system
+India is the largest democratic country in the world. It firmly believes Unity in diversity. Hence there are various factors affecting us directly or indirectly like population, education environment etc. Therefore digitalization has a large impact on us. We the people of India have the right to elect our own representatives.This projects will demonstrate the management of ELection Commission of India to Add, Delete, Modify and can store all the data permanently or temporarily of all the constituents of India that is voters. Also in this project we have successfully used our understanding of c program to implement it.
+
+https://www.nvsp.in/
+from the website, the latest elections has been done and with all the copyrights, i have implemented the database management system.
+
 
 
 ## Cost and Features and Timeline
@@ -66,14 +69,16 @@ a primary focus on quality improvement internal team dedicated to research and a
 
 ## Weaknesses 
 output devices and facilities and technologies insufficient management lack of funding and resources our locations that are not easily accessible for anyone in the quantity and saw the authority's hai staff turnovers
-## Threats 
-economy or political in security policy and legislation changes that result in budget deficits are preserved to reduce cost while meeting expectation of universal coverages increased competency
+
 
 
 ## Opportunities 
 
 this data can be used for organising managing the data knowledge share deploying various schemes related to health economy and social initiatives could be driven by engaging increase of fund analytics research including both staff technology create member programs
-# 4W&#39;s and 1&#39;H
+
+## Threats 
+economy or political in security policy and legislation changes that result in budget deficits are preserved to reduce cost while meeting expectation of universal coverages increased competency
+
 
 ## Who:
 
@@ -102,37 +107,36 @@ what **
 -- ID | Description | Status (Implemented/Future)
 
 
-hr01 customers can add details of the constituencies voters
-hr02 Customers can delete 
-hr03 update 
-hr04 search 
-hr05 biometric scan 
-hr06 smart card 
-hr07 GPS tracking
+hr01 | customers can add details of the constituencies voters | (Implemented)
 
+hr02 | Customers can delete details of the constituencies voters | (Implemented)
 
+hr03 | update details of the constituencies voters           | (Implemented)
+hr04 | search details of the constituencies voters           | (Implemented)
+hr05 | biometric scan details of the constituencies voters   | (To Be Implemented)
+hr06 | smart card details of the constituencies voters       | (To Be Implemented)
+hr07 | GPS tracking details of the constituencies voters     | (To Be Implemented)
 
-
-HR01|Description | Status (Implemented/Future)|
-HR01|Description | Status (Implemented/Future)|
-HR01|Description | Status (Implemented/Future)|
-HR01|Description | Status (Implemented/Future)|
 
 
 
 ##  Low level Requirements:
 
-Low level requirements 2018 system should provide check whether the Voter is in list or not 0
+LR01 | system should provide check whether the Voter is in list or not 0
 
-LR02 the system should be able to add the user data who is not in list 
+LR02 | the system should be able to add the user data who is not in list                                        |(Implemented)
+        
+LR04 | system should be able to delete                                                                          |(Implemented)    
 
-LR03 system should be able to delete ,update , view and search the voters who are in the list only.
+LR05 | system should be able to update the voters who are in the list only.                                     |(Implemented)
+
+LR06 | system should be able to view the voters who are in the list only.and                                    |(Implemented)
+
+LR07 | system should be able to search the voters who are in the list only.                                     |(Implemented)
 
 
 
-security concerns this should be used by only authorised user and they can admitted to the system|
-platform is about the system working on any operating system be it windows or Linux|
-performance of a man should handle the large amount of constituent state
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+LR08 | security concerns this should be used by only authorised user and they can admitted to the system        |(To be Implemented)
+LR09 | platform is about the system working on any operating system be it windows or Linux                      |(Implemented)
+
 
