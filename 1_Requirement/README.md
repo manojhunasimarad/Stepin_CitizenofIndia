@@ -9,8 +9,11 @@ India is the largest democratic country in the world. It firmly believes Unity i
 
 ## Objectives:
 The main objectives of this project are 
+
 --successful enrollment of citizens of India in voters list id which can use operations like add, delete, view, search, and modify user database.
+
 --to illustrate the digitalization done in file storage process eliminating hand written and hardcover documents.
+
 --to achieve success in using my understandings of c program to implement it.
 
 
@@ -22,7 +25,9 @@ The main objectives of this project are
 --we can edit member in voter ID database.
 
 --we can modify member in voter ID database like
---------due to change of address. 
+
+--------due to change of address.
+
 --------due to change of name.
 
 --we can opt to display the data. 
@@ -62,7 +67,6 @@ It could be initially used in university or college to elect their student secre
     
     
 ## SWOT ANALYSIS
-![SWOT-Sample](Link to Pic)
 
 ## strengths 
 a primary focus on quality improvement internal team dedicated to research and analytics high quality of authorities modern computers operating systems or devices well-equipped
@@ -112,9 +116,13 @@ hr01 | customers can add details of the constituencies voters | (Implemented)
 hr02 | Customers can delete details of the constituencies voters | (Implemented)
 
 hr03 | update details of the constituencies voters           | (Implemented)
+
 hr04 | search details of the constituencies voters           | (Implemented)
+
 hr05 | biometric scan details of the constituencies voters   | (To Be Implemented)
+
 hr06 | smart card details of the constituencies voters       | (To Be Implemented)
+
 hr07 | GPS tracking details of the constituencies voters     | (To Be Implemented)
 
 
@@ -122,7 +130,7 @@ hr07 | GPS tracking details of the constituencies voters     | (To Be Implemente
 
 ##  Low level Requirements:
 
-LR01 | system should provide check whether the Voter is in list or not 0
+LR01 | system should provide check whether the Voter is in list or not                                          |(Implemented)
 
 LR02 | the system should be able to add the user data who is not in list                                        |(Implemented)
         
@@ -134,9 +142,8 @@ LR06 | system should be able to view the voters who are in the list only.and    
 
 LR07 | system should be able to search the voters who are in the list only.                                     |(Implemented)
 
-
-
 LR08 | security concerns this should be used by only authorised user and they can admitted to the system        |(To be Implemented)
+
 LR09 | platform is about the system working on any operating system be it windows or Linux                      |(Implemented)
 
 
