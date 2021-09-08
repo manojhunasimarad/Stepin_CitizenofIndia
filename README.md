@@ -17,4 +17,4 @@
 [![Git Inspector](https://github.com/manojhunasimarad/Stepin_electorate/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/manojhunasimarad/Stepin_electorate/actions/workflows/gitinspector.yml)
 [![Unit Testing](https://github.com/manojhunasimarad/Stepin_electorate/actions/workflows/unit-test.yml/badge.svg)](https://github.com/manojhunasimarad/Stepin_electorate/actions/workflows/unit-test.yml)
 [![CI-Coverage](https://github.com/manojhunasimarad/Stepin_electorate/actions/workflows/gcov.yml/badge.svg)](https://github.com/manojhunasimarad/Stepin_electorate/actions/workflows/gcov.yml)
-(https://app.codacy.com/gh/manojhunasimarad/Stepin_electorate/dashboard)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/6ae40122442c4ce0b5f06b66b9b0fc98)](https://www.codacy.com/gh/manojhunasimarad/Stepin_electorate/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=manojhunasimarad/Stepin_electorate&amp;utm_campaign=Badge_Grade)
